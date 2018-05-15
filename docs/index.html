@@ -1062,9 +1062,9 @@ div.WordSection1
 
 <h1>Downloading the OSM Data </h1>
 
-<p class=MsoNormal>To being youll need some street level data to build a
+<p class=MsoNormal>To begin you'll need some street level data to build your
 network dataset. Open Street Maps is open source and in most countries,
-provides quality road data. Its worth noting that your eventual service area quality
+provides quality road data (so thats what I'll use). It's worth noting that your eventual service area quality
 will only ever be as good as the initial map data.</p>
 
 <p class=MsoNormal>Furthermore, It is possible to download and OSM data file
@@ -1107,7 +1107,7 @@ get an error message if your area is too large). This was done by OSM on
 purpose to reduce the strain on their servers and there are ways to export
 large amounts of data by using a third-party server.</p>
 
-<p class=MsoNormal>Youll still need to select your area</p>
+<p class=MsoNormal>You'll still need to select your area</p>
 
 <p class=MsoNormal><span style='mso-spacerun:yes'> </span><span
 style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2"
@@ -1122,8 +1122,8 @@ src="index_files/image004.png" alt="Screen Clipping" v:shapes="Picture_x0020_2">
 <p class=MsoNormal>If a download starts with a .osm file then it means youre
 in the clear and can skip to the next section. </p>
 
-<p class=MsoNormal>If you get an error then youll most likely need to use a
-third party download server. Youll still have a URL with the area you selected
+<p class=MsoNormal>If you get an error then you'll most likely need to use a
+third party download server. You'll still have a URL with the area you selected
 and the coordinates come in handy when downloading externally.</p>
 
 <p class=MsoNormal>My URL for the Canberra area looks something like this:</p>
@@ -1146,7 +1146,7 @@ href="https://wiki.openstreetmap.org/wiki/Xapi">OSM Wiki</a> </p>
 
 <p class=MsoNormal>http://www.overpass-api.de/api/xapi_meta?*[bbox=?,?,?,?]</p>
 
-<p class=MsoNormal>and the bbox in the URL above (which stands for bounding
+<p class=MsoNormal>and the (bbox) in the URL above (which stands for bounding
 box) requires the same coordinates that the export link gave you above</p>
 
 <p class=MsoNormal>You now need to enter your coordinates into that link and
@@ -1155,10 +1155,10 @@ download the file. For my Canberra example it would look something like</p>
 <p class=MsoNormal>http://www.overpass-api.de/api/xapi_meta?*[bbox=<span
 style='background:yellow;mso-highlight:yellow'>149.0778,-35.3346,149.1808,-35.2853</span>]</p>
 
-<p class=MsoNormal>This will then download a file called xapi_meta to your
-downloads and youll need to add a .osm extension before continuing in ArcMap.</p>
+<p class=MsoNormal>This will then download a file called "xapi_meta" to your
+downloads and you'll need to add a .osm extension before continuing in ArcMap.</p>
 
-<p class=MsoNormal>To add a file extension youll need to open the files
+<p class=MsoNormal>To add a file extension you'll need to open the files
 location (most likely in your download folder), click on it, click rename and
 add <span style='mso-spacerun:yes'> </span>.osm to the end of the file name.</p>
 
@@ -1180,11 +1180,11 @@ src="index_files/image006.png" alt="Canberra Example" v:shapes="Picture_x0020_5"
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal>To load the OSM toolbox into ArcMap youll need to first install
+<p class=MsoNormal>To load the OSM toolbox into ArcMap you'll need to first install
 the Open Street Map toolbox. It can be downloaded for free from the ESRI
 website and the download link is located at the <a
 href="https://www.esri.com/en-us/arcgis/products/arcgis-editor-for-openstreetmap">bottom
-the page here</a>. Its worth pointing out youll need to ensure you download
+the page here</a>. Its worth pointing out you'll need to ensure you download
 and install the toolbox for your version of ArcMap (10.6, 10.5 etc).</p>
 
 <p class=MsoNormal>After installing the OSM toolbox it should appear in ArcMap
@@ -1197,8 +1197,8 @@ like the following</p>
 </v:shape><![endif]--><![if !vml]><img border=0 width=252 height=80
 src="index_files/image007.png" alt="Screen Clipping" v:shapes="Picture_x0020_6"><![endif]></span></p>
 
-<p class=MsoNormal>Note : If this doesnt occur its also possible to manually
-add the OSM toolbox by right clicking and pressing Add Toolbox </p>
+<p class=MsoNormal>Note : If this doesn't occur it's also possible to manually
+add the OSM toolbox by right clicking and pressing "Add Toolbox" </p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_7" o:spid="_x0000_i1056" type="#_x0000_t75" alt="Screen Clipping"
@@ -1207,7 +1207,7 @@ add the OSM toolbox by right clicking and pressing Add Toolbox </p>
 </v:shape><![endif]--><![if !vml]><img border=0 width=254 height=181
 src="index_files/image008.png" alt="Screen Clipping" v:shapes="Picture_x0020_7"><![endif]></span></p>
 
-<p class=MsoNormal>Youll then be asked to locate the toolbox .tbx file.</p>
+<p class=MsoNormal>You'll then be asked to locate the toolbox .tbx file.</p>
 
 <p class=MsoNormal>If should be located in Toolboxes <span style='font-family:
 Wingdings;mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
@@ -1231,7 +1231,7 @@ src="index_files/image009.png" alt="Screen Clipping" v:shapes="Picture_x0020_9">
 
 <h1>Creating a File Geodatabase</h1>
 
-<p class=MsoNormal>Before you begin to create a map youll need to create a
+<p class=MsoNormal>Before you begin to create a map you'll need to create a
 Geodatabase to store your road, point and shape file data that gets exported
 from the .osm file you downloaded earlier.</p>
 
@@ -1320,10 +1320,10 @@ File Geodatabase for the Target Feature Dataset.</p>
 </v:shape><![endif]--><![if !vml]><img border=0 width=605 height=423
 src="index_files/image014.png" alt="Screen Clipping" v:shapes="Picture_x0020_16"><![endif]></span></p>
 
-<p class=MsoNormal>Ive called my Target Feature dataset CanberraData however
-it doesnt matter what its called. Once both of these fields have been filled in
+<p class=MsoNormal>I've called my Target Feature dataset "CanberraData" however
+it doesn't matter what it's called. Once both of these fields have been filled in
 you can then press OK. It will take some time to load and will end with a
-window that says Completed. You can close this window and youll now see that
+window that says "Completed". You can close this window and you'll now see that
 the Geodatabase now has line, point and shape files inside.</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
@@ -1354,11 +1354,11 @@ src="index_files/image016.png" alt="Screen Clipping" v:shapes="Picture_x0020_20"
 third will automatically be generated.</p>
 
 <p class=MsoNormal>The First Input needs the Dataset you created in your
-Geodatabase in the step above. I called mine CanberraData however yours might
+Geodatabase in the step above. I called mine "CanberraData" however yours might
 have a different name. The second input requires a Network Configuration File.
 This file should have automatically been loaded when you installed the OSM
-Toolbox and is located in C:\Program Files
-(x86)\ArcGIS\Desktop10.6\ArcToolbox\Toolboxes\ND_ConfigFiles\DriveGeneric.xml</p>
+Toolbox and is located in "C:\Program Files
+(x86)\ArcGIS\Desktop10.6\ArcToolbox\Toolboxes\ND_ConfigFiles\DriveGeneric.xml"</p>
 
 <p class=MsoNormal><!--[if gte vml 1]><v:shape id="Picture_x0020_22" o:spid="_x0000_s1026"
  type="#_x0000_t75" alt="Screen Clipping" style='position:absolute;
@@ -1435,7 +1435,7 @@ src="index_files/image021.png" alt="Screen Clipping" v:shapes="Picture_x0020_26"
 <p class=MsoNormal>To generate a service area we first need to tell ArcMap what
 locations we want to base the service area on. You can load external Shapefile,
 Layer or even KML files from Google Earth into ArcMap and use them for the
-Network Analyst however for this guide Ive created a new layer and added my
+Network Analyst however for this guide I've created a new layer and added my
 own points to the map.</p>
 
 <p class=MsoNormal>To add a new shapefile open ArcCatalog. Locate your working
@@ -1456,12 +1456,12 @@ Shapefile</p>
 </v:shape><![endif]--><![if !vml]><img border=0 width=420 height=257
 src="index_files/image022.png" alt="Screen Clipping" v:shapes="Picture_x0020_27"><![endif]></span></p>
 
-<p class=MsoNormal>Note: Its recommended you dont create the shapefile inside
+<p class=MsoNormal>Note: It's recommended you dont create the shapefile inside
 the Geodatabase you are using.</p>
 
-<p class=MsoNormal>Ive called my Shapefile points however the name doesnt
+<p class=MsoNormal>I've called my Shapefile points however the name doesn't
 matter. You will also need to set a spatial reference for the new Shapefile. As
-the OSM data uses WGS_1984 its best if you also use this for the point data as
+the OSM data uses WGS_1984 it's best if you also use this for the point data as
 well.</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
@@ -1472,11 +1472,11 @@ well.</p>
 src="index_files/image024.png" alt="Screen Clipping" v:shapes="Picture_x0020_28"><![endif]></span></p>
 
 <p class=MsoNormal>You can now return to ArcMap and add the Shapefile to your
-map. Currently its empty and youll need to start editing to add points to the
+map. Currently it's empty and you'll need to start editing to add points to the
 file.</p>
 
 <p class=MsoNormal>I have my Editor Toolbar docked along the top of ArcMap
-however if it doesnt appear you can find it in Customize <span
+however if it doesn't appear you can find it in Customize <span
 style='font-family:Wingdings;mso-ascii-font-family:Calibri;mso-ascii-theme-font:
 minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;
 mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span style='mso-char-type:
@@ -1504,7 +1504,7 @@ need to select the shape file you recently created and added.</p>
 </v:shape><![endif]--><![if !vml]><img border=0 width=477 height=493
 src="index_files/image026.png" alt="Screen Clipping" v:shapes="Picture_x0020_30"><![endif]></span></p>
 
-<p class=MsoNormal>Youll also need to ensure youve selected the create
+<p class=MsoNormal>Youll also need to ensure you've selected the create
 features option from the Editor Toolbar</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
@@ -1556,7 +1556,7 @@ service area.</p>
 <p class=MsoNormal>Note: If you have not yet saved your map it is worth doing
 so before creating the service area.</p>
 
-<p class=MsoNormal>Firstly, youll need to ensure that the Network Analyst tool
+<p class=MsoNormal>Firstly, you'll need to ensure that the Network Analyst tool
 is switched on in the Extensions by Selecting Customize <span style='font-family:
 Wingdings;mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;
 mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-char-type:
@@ -1570,7 +1570,7 @@ mso-symbol-font-family:Wingdings'>à</span></span> Extensions</p>
 </v:shape><![endif]--><![if !vml]><img border=0 width=163 height=28
 src="index_files/image031.png" alt="Screen Clipping" v:shapes="Picture_x0020_35"><![endif]></span></p>
 
-<p class=MsoNormal>Youll also need to ensure you have the network analyst
+<p class=MsoNormal>You'll also need to ensure you have the network analyst
 toolbar enabled in the Customize <span style='font-family:Wingdings;mso-ascii-font-family:
 Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:Calibri;
 mso-hansi-theme-font:minor-latin;mso-char-type:symbol;mso-symbol-font-family:
@@ -1585,7 +1585,7 @@ Toolbars menu.</p>
 src="index_files/image032.png" alt="Screen Clipping" v:shapes="Picture_x0020_36"><![endif]></span></p>
 
 <p class=MsoNormal>ArcMap has automatically recognised my CanberraData network
-dataset and now its possible to select create new service area:</p>
+dataset and now it's possible to select create new service area:</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_37" o:spid="_x0000_i1034" type="#_x0000_t75" alt="Screen Clipping"
@@ -1596,8 +1596,8 @@ src="index_files/image033.png" alt="Screen Clipping" v:shapes="Picture_x0020_37"
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal>Upon selecting New service area youll notice that a Service
-Area layer has been added however before calculations are made youll need to configure
+<p class=MsoNormal>Upon selecting New service area you'll notice that a "Service
+Area" layer has been added however before calculations are made you'll need to configure
 your service area. This can be done through the network analyst window</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
@@ -1619,8 +1619,8 @@ point settings of your service area.</p>
 </v:shape><![endif]--><![if !vml]><img border=0 width=213 height=311
 src="index_files/image035.png" alt="Screen Clipping" v:shapes="Picture_x0020_39"><![endif]></span></p>
 
-<p class=MsoNormal>Youll first need to add your points to the facilities by
-right clicking on Facilities and select Load Locations</p>
+<p class=MsoNormal>You'll first need to add your points to the facilities by
+right clicking on "Facilities" and select "Load Locations"</p>
 
 <p class=MsoNormal>The load locations window will look something like this:</p>
 
@@ -1634,10 +1634,10 @@ src="index_files/image036.png" alt="Screen Clipping" v:shapes="Picture_x0020_40"
 <p class=MsoNormal>It important to ensure that you are loading the shapefile containing
 the locations you plan to analyse.</p>
 
-<p class=MsoNormal>Youll notice that the Facilities now displays the number of
+<p class=MsoNormal>You'll notice that the Facilities now displays the number of
 points that have been loaded into the network analysis.</p>
 
-<p class=MsoNormal>The next step requires the Service Area Properties window</p>
+<p class=MsoNormal>The next step requires the "Service Area Properties" window</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_41" o:spid="_x0000_i1030" type="#_x0000_t75" alt="Screen Clipping"
@@ -1646,8 +1646,8 @@ points that have been loaded into the network analysis.</p>
 </v:shape><![endif]--><![if !vml]><img border=0 width=345 height=117
 src="index_files/image037.png" alt="Screen Clipping" v:shapes="Picture_x0020_41"><![endif]></span></p>
 
-<p class=MsoNormal>The two most important tabs are the Analysis Settings and
-the Polygon Generation as these determine the eventual output.</p>
+<p class=MsoNormal>The two most important tabs are the "Analysis Settings" and
+the "Polygon Generation" as these determine the eventual output.</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_42" o:spid="_x0000_i1029" type="#_x0000_t75" alt="Screen Clipping"
@@ -1658,13 +1658,13 @@ src="index_files/image038.png" alt="Screen Clipping" v:shapes="Picture_x0020_42"
 
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Impedance</b> : There
 are two options for a service area. Either calculating by time or distance. As
-Im trying to find shortest distance Ill use the distance option. Its worth
-noting that OSM data doesnt always have speed data which can make the time calculations
+I'm trying to find shortest distance I'll use the distance option. It's worth
+noting that OSM data doesn't always have speed data which can make the time calculations
 inaccurate in some areas.</p>
 
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Default Breaks</b> :
-Here you enter the size of the service area. In this example Ill create two
-polygons around each point, one at 500 meters and one at 1000 meters. Its
+Here you enter the size of the service area. In this example I'll create two
+polygons around each point, one at 500 meters and one at 1000 meters. It's
 possible to just enter one distance/time or several by using commas to separate.</p>
 
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Direction</b> : This
@@ -1697,10 +1697,10 @@ is the distance that the polygons are from the road. A higher distance will mean
 that polygons cover large blocks or areas without streets but this can also be
 less accurate.</p>
 
-<p class=MsoNormal>Once youve selected your desired options you can click OK.</p>
+<p class=MsoNormal>Once you've selected your desired options you can click OK.</p>
 
 <p class=MsoNormal>Finally to generate your Polygons or Service area you need
-to select Solve from the Network Analyst Toolbar</p>
+to select "Solve" from the Network Analyst Toolbar</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_45" o:spid="_x0000_i1027" type="#_x0000_t75" alt="Screen Clipping"
